@@ -26,12 +26,12 @@ Import this blueprint to Home Assistant with "**Import blueprint**" button.
 To install this blueprint in your Home Assistant instance, follow these steps:
 
 1. Open your Home Assistant instance.
-2. Navigate to the "Configuration" panel.
-3. Click on "Blueprints".
-4. Click on "Import Blueprint" and paste the URL to this GitHub repository.
-5. Find the blueprint in the list of available blueprints and click "Install".
+2. Navigate to the **Configuration** panel.
+3. Click on **Blueprints**.
+4. Click on **Import Blueprint** and paste the URL to this GitHub repository.
+5. Find the blueprint in the list of available blueprints and click **Install**.
 6. Configure the blueprint according to your preferences.
-7. Click "Save".
+7. Click **Save**.
 
 ### Import from file
 
