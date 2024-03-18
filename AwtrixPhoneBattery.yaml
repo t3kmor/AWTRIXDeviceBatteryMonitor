@@ -5,7 +5,7 @@ blueprint:
     This blueprint will print out the battery status of a device available to home assistant and will refresh every minute.
     It uses a custom icon set you need to install.
 
-    You can find all the icons here: https://github.com/t3kmor/AWTRIXDeviceBatteryMonitor/tree/master/icons/
+    You can find all the icons here: https://github.com/t3kmor/AWTRIXDeviceBatteryMonitor/tree/main/icons/
 
     ### On Battery Icons
 
