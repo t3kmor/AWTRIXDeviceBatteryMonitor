@@ -64,6 +64,6 @@ If you need to display the battery level of several devices, simply create an au
 
 
 ## TODO
-- [ ] Change text color
+- [ ] Option to change text color
 - [ ] Add option to make text rainbow-colored
 - [ ] Change position of battery percentage relative to text
