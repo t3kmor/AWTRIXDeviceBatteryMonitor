@@ -46,6 +46,10 @@ Import this blueprint to Home Assistant with "**Import blueprint**" button.
 ### Several devices
 If you need to display the battery level of several devices, simply create an automation for each device using the blueprint.
 
+## Screenshot
+![51dcsqdqd1414656](https://github.com/t3kmor/AWTRIXDeviceBatteryMonitor/assets/121339563/fbadfb74-c04f-4c72-95ec-295ff065a6af)
+
+
 ## TODO
 - [ ] Change text color
 - [ ] Add option to make text rainbow-colored
