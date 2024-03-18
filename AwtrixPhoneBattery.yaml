@@ -46,6 +46,17 @@ blueprint:
       selector:
         text:
       default: phone
+    scroll_speed:
+      name: Scroll speed
+      description: Modifies the scroll speed. Enter a percentage value of the original scroll speed.
+      default: 100
+      selector:
+        number:
+          min: 0
+          max: 100
+          step: 10
+          unit_of_measurement: "%"
+          mode: slider
     percent:
       name: Show percentage
       description: Show percentage of battery after text set above
@@ -142,6 +153,7 @@ variables:
   push_icon: !input push_icon
   duration_on: !input duration
   text_case: !input text_case
+  scroll_speed: !input scroll_speed
   battery_low: !input progress_color_0
   battery_20: !input progress_color_20
   battery_40: !input progress_color_40
@@ -159,6 +171,7 @@ variables:
         "pushIcon":{{push_icon}},
         "duration":{{duration_on}}, 
         "textCase":{{text_case}}, 
+        "scrollSpeed":{{scroll_speed}},
         "progress":"{{states[battery_sensor].state}}",
         "progressBC":{{progressBC}},
         "progressC":{% if states[battery_sensor].state >= "80" %}{{battery_80}}{% elif states[battery_sensor].state >= "60" %}{{battery_60}}{% elif states[battery_sensor].state >= "40" %}{{battery_40}}{% elif states[battery_sensor].state >= "20" %}{{battery_20}}{% else %}{{battery_low}}{% endif %}},
