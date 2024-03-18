@@ -16,11 +16,24 @@ This Home Assistant blueprint allows you to create a battery percentage display 
     - Set the background color of the progress bar.
 
 ## Installation
+### Import button
 Import this blueprint to Home Assistant with "**Import blueprint**" button.
 
 [![Open your Home Assistant instance and show the blueprint import dialog with a specific blueprint pre-filled.](https://my.home-assistant.io/badges/blueprint_import.svg)](https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https%3A%2F%2Fgithub.com%2Ft3kmor%2FAWTRIXDeviceBatteryMonitor)
 
-**OR**
+### Import from URL 
+
+To install this blueprint in your Home Assistant instance, follow these steps:
+
+1. Open your Home Assistant instance.
+2. Navigate to the "Configuration" panel.
+3. Click on "Blueprints".
+4. Click on "Import Blueprint" and paste the URL to this GitHub repository.
+5. Find the blueprint in the list of available blueprints and click "Install".
+6. Configure the blueprint according to your preferences.
+7. Click "Save".
+
+### Import from file
 
 1. Download the blueprint file.
 2. In Home Assistant, navigate to **Configuration > Blueprints**.
