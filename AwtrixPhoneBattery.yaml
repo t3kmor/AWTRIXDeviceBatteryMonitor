@@ -174,7 +174,7 @@ variables:
         "scrollSpeed":{{scroll_speed}},
         "progress":"{{states[battery_sensor].state}}",
         "progressBC":{{progressBC}},
-        "progressC":{% if states[battery_sensor].state >= "80" %}{{battery_80}}{% elif states[battery_sensor].state >= "60" %}{{battery_60}}{% elif states[battery_sensor].state >= "40" %}{{battery_40}}{% elif states[battery_sensor].state >= "20" %}{{battery_20}}{% else %}{{battery_low}}{% endif %}},
+        "progressC":{% if states[battery_sensor].state >= "80" or states[battery_sensor].state == "100" %}{{battery_80}}{% elif states[battery_sensor].state >= "60" %}{{battery_60}}{% elif states[battery_sensor].state >= "40" %}{{battery_40}}{% elif states[battery_sensor].state >= "20" %}{{battery_20}}{% else %}{{battery_low}}{% endif %}},
 
 trigger:
   - platform: time_pattern
